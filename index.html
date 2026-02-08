@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Be My Valentine 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <audio id="bgMusic" src="assets/music.mp3" loop></audio>
+
+ <div class="hearts" id="hearts"></div>
+
+
+  <!-- HOME SCREEN -->
+  <div class="container" id="home">
+    <img src="assets/bear.png" class="bear" />
+    <h1>Deepali, will you be my Valentine? 💕</h1>
+
+    <div class="buttons">
+      <button id="yesBtn">Yes 💖</button>
+      <button id="noBtn">No 😒</button>
+    </div>
+
+    <p id="message"></p>
+  </div>
+
+  <!-- YES SCREEN -->
+  <div class="container hidden" id="yesScreen">
+  <div id="confetti"></div>
+
+  <h2 class="valentine-title">Happy Valentine’s Day 💖</h2>
+
+  <img src="assets/couple.jpg" class="couple" />
+
+  <h1 id="typeText"></h1>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+.DS_Store
+*.tar.gz
+*.zip
+node_modules/
+.vscode/
+*.swp
+*.swo
+*~
+screenshot.png
